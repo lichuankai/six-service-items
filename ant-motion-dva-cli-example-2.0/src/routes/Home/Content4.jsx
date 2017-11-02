@@ -32,9 +32,9 @@ class Content extends React.Component {
     const props = { ...this.props };
     const isMode = props.isMode;
     const dataSource = [
-      { img: 'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png', title: '技术', content: '丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。' },
-      { img: 'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png', title: '融合', content: '解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。\n解放业务及技术生产力，推动金融服务底层创新。' },
-      { img: 'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png', title: '开发', content: '符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。' },
+      { img: 'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png', title: '技术', content: '通过分解和分析行业、企业、产品中包含的技术内容，上下游技术，竞争对手情况，制定数据库建库的逻辑检索式。' },
+      { img: 'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png', title: '融合', content: '通过数据库建库流程的各节点控制，经过多次的人工检索和智能分析，保证专利数据库结果的查全和查准率。' },
+      { img: 'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png', title: '开发', content: '用户在数据库内进行快速的检索、浏览与分析。准确分析专利数据，掌握整体技术' },
     ];
     const ulChildren = dataSource.map(this.getBlockChildren);
     delete props.isMode;
@@ -59,13 +59,13 @@ class Content extends React.Component {
               key="h1"
               id={`${props.id}-title`}
             >
-              蚂蚁金融云提供专业的服务
+              专利专题数据库
             </h1>
             <p
               key="p"
               id={`${props.id}-content`}
             >
-              基于阿里云计算强大的基础资源
+              专利专题数据库的介绍
             </p>
             <QueueAnim
               component="ul"
@@ -83,7 +83,7 @@ class Content extends React.Component {
             id={`${props.id}-img`}
             resetStyleBool
           >
-            <img width="100%" src="https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png" />
+            <img width="100%" src="/数据库研发.png" />
           </TweenOne>
         </OverPack>
       </div>

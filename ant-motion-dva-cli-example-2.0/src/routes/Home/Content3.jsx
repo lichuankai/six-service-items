@@ -36,10 +36,10 @@ class Content extends React.Component {
             id={`${props.id}-textWrapper`}
           >
             <h1 key="h1" id={`${props.id}-title`}>
-              分布式中间件
+              专利运营
             </h1>
             <p key="p" id={`${props.id}-content`}>
-              金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。
+              中心依托自身强大的专利信息平台、评估实力对企业的现有专利或专利申请进行管理，促进其专利技术的应用和转化，实现企业专利技术价值或者效能。
             </p>
           </QueueAnim>
           <TweenOne
@@ -50,7 +50,7 @@ class Content extends React.Component {
             resetStyleBool
           >
             <span id={`${props.id}-img`}>
-              <img width="100%" src="https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png" />
+              <img width="100%" src="/专利展示交易、专利运营_上.png" />
             </span>
           </TweenOne>
         </OverPack>

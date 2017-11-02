@@ -34,7 +34,7 @@ class Content extends React.Component {
             resetStyleBool
           >
             <span id={`${props.id}-img`}>
-              <img width="100%" src="https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png" />
+              <img width="100%" src="/分析评议导航（反）.png" />
             </span>
           </TweenOne>
           <QueueAnim
@@ -46,10 +46,10 @@ class Content extends React.Component {
             id={`${props.id}-textWrapper`}
           >
             <h1 key="h1" id={`${props.id}-title`}>
-              企业资源管理
+              专利导航
             </h1>
             <p key="p" id={`${props.id}-content`}>
-              云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。
+              知识产权导航是以专利信息资源利用和专利分析为基础，把专利运用嵌入产业技术创新、产品创新、组织创新和商业模式创新，引导和支撑产业科学发展的探索性工作。
             </p>
           </QueueAnim>
         </OverPack>

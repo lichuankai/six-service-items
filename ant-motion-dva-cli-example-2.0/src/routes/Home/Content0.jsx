@@ -54,21 +54,15 @@ class Banner2 extends React.Component {
             key="logo"
             id={`${props.id}-titleBlock0`}
           >
-            Ant Motion
+            分析评审
           </span>
         <p
           key="content"
           id={`${props.id}-contentBlock0`}
         >
-          Ant Motion 在界面里主要是来加强体验舒适度、描述层级关系、增加界面活力、反馈与意向等功能性的动效。
+         利用知识产权竞争情报分析等手段，对重大经济科技活动所涉及的知识产权整体情况和竞争状况进行综合分析、评估、评价和审查
         </p>
-        <Button
-          type="ghost"
-          key="button"
-          id={`${props.id}-buttonBlock0`}
-        >
-          Learn More
-        </Button>
+       
       </QueueAnim>
     </Element>);
 
