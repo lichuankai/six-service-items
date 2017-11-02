@@ -19,11 +19,18 @@ class Header extends React.Component {
     });
   }
 
+  scrollToAnchor = (anchorName) => {
+    if (anchorName) {
+      let anchorElement = document.getElementById(anchorName);
+      if (anchorElement) { anchorElement.scrollIntoView(); }
+    }
+  }
+
   render() {
     const props = { ...this.props };
     const isMode = props.isMode;
     delete props.isMode;
-    const navData = { menu1: '导航一', menu2: '导航二', menu3: '导航三', menu4: '导航四',menu5: '导航五' };;
+    const navData = { menu1: <a onClick={() => this.scrollToAnchor('content_10_0')}>分析评审</a>, menu2: <a onClick={() => this.scrollToAnchor('content_8_0')}>查新检索</a>, menu3: <a onClick={() => this.scrollToAnchor('content_2_0')}>专利导航</a>, menu4: <a onClick={() => this.scrollToAnchor('content_3_0')}>专利运营</a>,menu5: <a onClick={() => this.scrollToAnchor('content_7_0')}>专利专题数据库</a> };;
     const navChildren = Object.keys(navData)
       .map((key, i) => (<Item key={i}>{navData[key]}</Item>));
     return (<TweenOne

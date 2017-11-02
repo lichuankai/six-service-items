@@ -7,7 +7,7 @@
   width: 100%;
   z-index: 970;
   box-shadow: 0 5px 8px fade(#000, 15);
-  position: relative;
+  position: fixed;
   top: 0;
   &-logo {
     display: inline-block;
@@ -21,6 +21,8 @@
     }
     & a {
       display: block;
+      color: #ffffff;
+      font-size: 20px;
     }
   }
   &-nav {
@@ -39,6 +41,9 @@
         float: left;
         text-align: center;
         width: 100px;
+      }
+      & a{
+        color: #ffffff;
       }
     }
     & .ant-menu-horizontal > .ant-menu-item-active {
