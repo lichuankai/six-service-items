@@ -20,9 +20,7 @@ class Content extends React.Component {
       key={i}
       id={`${this.props.id}-block${i}`}
     >
-      <span>
-        <img src={item.img} width="100%" />
-      </span>
+      
       <h2>{item.title}</h2>
       <p>{item.content}</p>
     </li>);
@@ -56,7 +54,13 @@ class Content extends React.Component {
             ease={['easeOutQuad', 'easeInQuad']}
             id={`${props.id}-textWrapper`}
           >
-           
+           <h1
+              key="h1"
+              id={`${props.id}-title`}
+            >
+              专利检索、科技查新
+            </h1>
+            
             <QueueAnim
               component="ul"
               key="ul" type={queue}
