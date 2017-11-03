@@ -30,7 +30,7 @@ class Header extends React.Component {
     const props = { ...this.props };
     const isMode = props.isMode;
     delete props.isMode;
-    const navData = { menu1: <a onClick={() => this.scrollToAnchor('content_10_0')}>分析评审</a>, menu2: <a onClick={() => this.scrollToAnchor('content_8_0')}>查新检索</a>, menu3: <a onClick={() => this.scrollToAnchor('content_2_0')}>专利导航</a>, menu4: <a onClick={() => this.scrollToAnchor('content_3_0')}>专利运营</a>,menu5: <a onClick={() => this.scrollToAnchor('content_7_0')}>专利专题数据库</a> };;
+    const navData = { menu1: <a onClick={() => this.scrollToAnchor('content_10_0')}>分析评审</a>, menu2: <a onClick={() => this.scrollToAnchor('content_8_0')}>查新检索</a>, menu3: <a onClick={() => this.scrollToAnchor('content_7_0')}>专利专题数据库</a> , menu4: <a onClick={() => this.scrollToAnchor('content_2_0')}>专利导航</a>,menu5: <a onClick={() => this.scrollToAnchor('content_3_0')}>专利运营</a>};;
     const navChildren = Object.keys(navData)
       .map((key, i) => (<Item key={i}>{navData[key]}</Item>));
     return (<TweenOne
