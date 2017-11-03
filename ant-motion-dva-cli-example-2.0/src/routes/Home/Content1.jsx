@@ -34,7 +34,7 @@ class Content extends React.Component {
     const dataSource = [
       { img: 'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png', title: '委托方式', content: '当面受理、网上受理、传真受理、委托受理等。' },
       { img: 'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png', title: '成果鉴定', content: '为科技工作者、大专院校、企业及个人提供结题的查新检索。' },
-      { img: 'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png', title: '科技（专利）奖项评审检索', content: ' 根据《专利奖项评价指标》及《科技奖项评价指标》，针对奖项的具体要求出具检索分析报告。' },
+     // { img: 'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png', title: '科技（专利）奖项评审检索', content: ' 根据《专利奖项评价指标》及《科技奖项评价指标》，针对奖项的具体要求出具检索分析报告。' },
       { img: 'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png', title: '科技计划，立项查新', content: ' 国家863计划、973计划、科技攻关计划、软科学计划、火炬计划、国际合作计划、重点新产品计划、中小企业创新基金等各级政府部门立项项目。' },
     ];
     const ulChildren = dataSource.map(this.getBlockChildren);
