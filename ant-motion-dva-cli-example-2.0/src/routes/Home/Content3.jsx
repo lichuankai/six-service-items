@@ -50,7 +50,7 @@ class Content extends React.Component {
             resetStyleBool
           >
             <span id={`${props.id}-img`}>
-              <img width="100%" src="/专利展示交易、专利运营_上.png" />
+              <img width="100%" src="operate.png" />
             </span>
           </TweenOne>
         </OverPack>

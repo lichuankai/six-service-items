@@ -34,7 +34,7 @@ class Content extends React.Component {
             resetStyleBool
           >
             <span id={`${props.id}-img`}>
-              <img width="100%" src="/分析评议导航（反）.png" />
+              <img width="100%" src="analysis.png" />
             </span>
           </TweenOne>
           <QueueAnim

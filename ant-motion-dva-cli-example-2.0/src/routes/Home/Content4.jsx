@@ -83,7 +83,7 @@ class Content extends React.Component {
             id={`${props.id}-img`}
             resetStyleBool
           >
-            <img width="100%" src="/数据库研发.png" />
+            <img width="100%" src="database.png" />
           </TweenOne>
         </OverPack>
       </div>
