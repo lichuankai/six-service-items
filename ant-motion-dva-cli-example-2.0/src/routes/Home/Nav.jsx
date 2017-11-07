@@ -30,7 +30,7 @@ class Header extends React.Component {
     const props = { ...this.props };
     const isMode = props.isMode;
     delete props.isMode;
-    const navData = { menu1: <a onClick={() => this.scrollToAnchor('content_10_0')}>分析评审</a>, menu2: <a onClick={() => this.scrollToAnchor('content_8_0')}>查新检索</a>, menu3: <a onClick={() => this.scrollToAnchor('content_7_0')}>专利数据</a> , menu4: <a onClick={() => this.scrollToAnchor('content_2_0')}>专利导航</a>,menu5: <a onClick={() => this.scrollToAnchor('content_3_0')}>专利运营</a>};;
+    const navData = {menu1: <a href="#">首页</a>, menu2: <a onClick={() => this.scrollToAnchor('content_10_0')}>专利导航</a>, menu3: <a onClick={() => this.scrollToAnchor('content_3_0')}>专利运营</a>, menu4: <a onClick={() => this.scrollToAnchor('content_8_0')}>查新检索</a> , menu5: <a onClick={() => this.scrollToAnchor('content_2_0')}>分析评议</a>,menu6: <a onClick={() => this.scrollToAnchor('content_7_0')}>专利数据</a>,};
     const navChildren = Object.keys(navData)
       .map((key, i) => (<Item key={i}>{navData[key]}</Item>));
     return (<TweenOne
@@ -43,7 +43,7 @@ class Header extends React.Component {
         animation={{ x: -30, type: 'from', ease: 'easeOutQuad' }}
         id={`${this.props.id}-logo`}
       >
-        <a>山东省精准扶贫知识产权服务平台</a>
+      <img width="100%" src="/LOGO.png" />
       </TweenOne>
       {isMode ? (<div
         className={`${this.props.className}-phone-nav${this.state.phoneOpen ? ' open' : ''}`}

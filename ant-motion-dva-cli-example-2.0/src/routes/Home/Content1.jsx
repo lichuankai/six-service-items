@@ -63,7 +63,7 @@ class Content extends React.Component {
             >
               专利检索、科技查新
             </h1>
-            
+             
             <QueueAnim
               component="ul"
               key="ul" type={queue}

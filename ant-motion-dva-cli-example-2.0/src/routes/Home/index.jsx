@@ -45,10 +45,10 @@ export default class Home extends React.Component {
     const children = [
       <Nav id="nav_0_0" key="nav_0_0" isMode={this.state.isMode}/>,
       <Content0 id="content_10_0" key="content_10_0" isMode={this.state.isMode}/>,
-      <Content1 id="content_8_0" key="content_8_0" isMode={this.state.isMode}/>,
-      <Content4 id="content_7_0" key="content_7_0" isMode={this.state.isMode}/>,
-      <Content2 id="content_2_0" key="content_2_0" isMode={this.state.isMode}/>,
       <Content3 id="content_3_0" key="content_3_0" isMode={this.state.isMode}/>,
+      <Content1 id="content_8_0" key="content_8_0" isMode={this.state.isMode}/>,
+      <Content2 id="content_2_0" key="content_2_0" isMode={this.state.isMode}/>,
+      <Content4 id="content_7_0" key="content_7_0" isMode={this.state.isMode}/>,
       <Footer id="footer_0_0" key="footer_0_0" isMode={this.state.isMode}/>,
     ];
     return (

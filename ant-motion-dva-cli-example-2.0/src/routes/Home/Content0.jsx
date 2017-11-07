@@ -54,13 +54,13 @@ class Banner2 extends React.Component {
             key="logo"
             id={`${props.id}-titleBlock0`}
           >
-            分析评审
+            专利导航
           </span>
         <p
           key="content"
           id={`${props.id}-contentBlock0`}
         >
-         利用知识产权竞争情报分析等手段，对重大经济科技活动所涉及的知识产权整体情况和竞争状况进行综合分析、评估、评价和审查
+         知识产权导航是以专利信息资源利用和专利分析为基础，把专利运用嵌入产业技术创新、产品创新、组织创新和商业模式创新，引导和支撑产业科学发展的探索性工作
         </p>
        
       </QueueAnim>

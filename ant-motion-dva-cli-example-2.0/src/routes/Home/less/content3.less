@@ -5,19 +5,19 @@
 .@{content1} {
   &-img {
     height: 100%;
-    width: 40%;
+    width: 65%;
     overflow: hidden;
     position: absolute;
     right: 0;
     span {
       display: block;
       position: absolute;
-      width: 55%;
-      left: 10%;
+      width: 100%;
+      left: 5%;
       line-height: 50vh;
       height: 50vh;
       margin: auto;
-      top: 0;
+      top: -10vh;
       bottom: 0;
       img {
         vertical-align: middle;
@@ -26,26 +26,29 @@
   }
   &-text {
     display: block;
-    width: 55%;
+    width: 40%;
     height: 150px;
     vertical-align: top;
     position: absolute;
     top: 0;
     bottom: 0;
+    left: 2%;
     margin: auto;
     & p, & h1 {
       position: relative !important;
       width: 75%;
-      float: right;
+      float: left;
     }
     & h1 {
       font-size: 32px;
       font-weight: normal;
       color: #404040;
+      float: left;
     }
     & p {
       margin-top: 20px;
       font-size: 14px;
+      float: left;
     }
   }
 }
